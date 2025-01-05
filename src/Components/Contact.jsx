@@ -11,7 +11,7 @@ const addres=[
 const Contact = () => {
   return (
     <>
-    <div className='bg-sky-400 h-40 px-16 flex justify-start items-center mt-32'> 
+    <div className='bg-sky-400 h-40 px-16 flex justify-start items-center mt-28'> 
         <h1 className='font-bold text-4xl'>Contact Us</h1>
         </div>
     <div className='flex mx-auto w-11/12 justify-around'>

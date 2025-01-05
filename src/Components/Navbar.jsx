@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
+import { Input } from 'antd';
 import { IoSearch } from "react-icons/io5";
-import { Input} from "antd";
 import {DownOutlined } from "@ant-design/icons"
 import { Dropdown } from './dropdown';
 import { Link, Outlet } from 'react-router';
@@ -23,15 +23,14 @@ const Navbar = () => {
                     <Link to="/" className='text-3xl font-blond '>Job Board</Link>
                   </div>
                   <div className='flex justify-end items-center  w-96 gap-2 border-2 border-white rounded-md'>
-                    <p className='border-r-2 border-white px-2' onClick={HndleDrop} href="">Job categories  <DownOutlined /></p>
-                    
-                    <Input className=' bg-black  w-[240px] outline-none border-none  rounded-md text-white text-center' type="text"placeholder='Find Job or Labable' suffix={<IoSearch/>}/>
+                    <p className='border-r-2 border-white px-2' onClick={HndleDrop} href="">Job categories  <DownOutlined className='text-lg font-bold'/></p>
+                    <Input className=' bg-black  w-[240px] outline-none border-none  rounded-md text-black text-center' placeholder="Find job" suffix={<IoSearch/>}/>
                   </div>
                   <div className='space-x-4'>
                     <Link to="">Post Job</Link>
-                    <Link to="">About</Link>
+                    <Link to="/about">About</Link>
                     <Link to="/contact">Contact us</Link>
-                    <button className='border border-1 rounded-full px-2 bg-sky-800 text-white w-40 hover:bg-slate-200 hover:text-black'>LOG IN </button>
+                    <Link to="/login" className='border border-1 rounded-full px-3 bg-sky-800 text-white w-40 hover:bg-slate-200 hover:text-black'>LOG IN </Link>
             
                   </div>
                   </div>

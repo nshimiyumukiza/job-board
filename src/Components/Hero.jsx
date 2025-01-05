@@ -39,11 +39,11 @@ export const Hero = () => {
 
 
   return (
-    <div>
+    <div className='mt-24'>
         <div className='grid grid-cols-2 bg-slate-300 '>
             <div className='bg-sky-700 text-white px-16 py-10'>
                 <h1 className='text-5xl font-bol
- d text-center pt-24'>Job Board</h1>
+ d text-center pt-10 pb-8'>Job Board</h1>
                 <p className='p-6 text-3xl'>have a good tomorrow, find a good job, find a good and competent employee</p>
                 <p className='text-3xl p-8'>
                 View our featured listings, below, or visit our Career Centre where you can search for 
@@ -85,7 +85,7 @@ export const Hero = () => {
               <h1 className='text-center text-4xl font-bold py-10 text-sky-900'>Partner Feedback</h1>
             <div className='pt-8 grid grid-cols-4 border-2 rounded-md mt-16 px-16 w-11/12 mx-auto space-x-5 bg-gray-100 pb-16'>
                 {workers.map(Worker =>(
-                    <Card className=' pt-4 px-8 py-4 '> 
+                    <Card className=' pt-4 px-8 py-4 hover:scale-110 '> 
                         <img className='' src={Worker.img} alt="work" />
                         <h1 className='text-center font-bold pt-4 pb-6 text-2xl text-sky-600'>{Worker.name}</h1>
                         <p className='text-lg'>{Worker.p}</p>

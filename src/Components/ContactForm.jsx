@@ -54,7 +54,7 @@ export function ContactForm () {
       }}
     />
      <div className='pt-5'>
-     <Button type="primary"><i>Submit</i></Button>
+     <Button type="primary"><i>Send</i></Button>
      </div>
     </div>
   )
