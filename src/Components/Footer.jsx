@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookF,FaInstagram,FaWhatsapp } from "react-icons/fa";
+import { Link } from 'react-router';
 const Footer = () => {
   return (
     <>
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className='space-y-4'>
             <h1 className='text-sky-800 font-bold'>About Job Board</h1>
             <div className='grid space-y-4'>
-            <a className='hover:text-blue-600' href="">about</a>
+            <Link to="about" className='hover:text-blue-600' href="">about</Link>
             <a className='hover:text-blue-600' href="">bueatiful stories</a>
             </div>
             <div className='flex space-x-5 gap-5items-center'>
@@ -20,7 +21,7 @@ const Footer = () => {
 <div className='space-y-4'>
    <h1 className='text-sky-800 font-bold'>Support</h1>
    <div className='grid space-y-4'> 
-   <a className='hover:text-blue-600' href="">contact us</a>
+   <Link to="contact" className='hover:text-blue-600' href="">contact us</Link>
    <a className='hover:text-blue-600' href="">partner with us</a>
     </div> 
 </div>

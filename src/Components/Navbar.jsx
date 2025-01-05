@@ -27,7 +27,7 @@ const Navbar = () => {
                     <Input className=' bg-black  w-[240px] outline-none border-none  rounded-md text-black text-center' placeholder="Find job" suffix={<IoSearch/>}/>
                   </div>
                   <div className='space-x-4'>
-                    <Link to="">Post Job</Link>
+                    <Link to="/post">Post Job</Link>
                     <Link to="/about">About</Link>
                     <Link to="/contact">Contact us</Link>
                     <Link to="/login" className='border border-1 rounded-full px-3 bg-sky-800 text-white w-40 hover:bg-slate-200 hover:text-black'>LOG IN </Link>

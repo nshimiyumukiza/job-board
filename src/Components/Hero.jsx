@@ -1,12 +1,13 @@
 import React from 'react'
 import { Carousel,Card } from "antd";
-import { GoDotFill } from "react-icons/go";;
+import { GoDotFill } from "react-icons/go";import { Link } from 'react-router';
+;
 
 const datas =[{
     
     img:"src/images/worker.png",
     head:"Job Seekers",
-    todos:["Post or edit your resume / professional profile","veiw job avarable","see what job you are eligible for","who asked you to work for them"],
+    todos:["Post or edit your resume / professional profile","veiw job avarable","see what job you are eligible for"],
 },
 {
     img:"src/images/boss.png",
@@ -72,11 +73,14 @@ export const Hero = () => {
                             <div className='flex space-x-4'>
                                 <GoDotFill />
                                <li className='hover:text-sky-600 text-lg'>{todo}</li>
+                          
                             </div>
                           
                         ))}</p>
                         
-                        
+                        <div className='p-5 flex justify-start items-center pl-36 mt-5'>
+                            <Link to="post" className='border rounded-md px-3 bg-sky-600 text-yellow-50'>Create Account</Link>
+                        </div>
                     </Card>
                 ))}
 
@@ -89,6 +93,7 @@ export const Hero = () => {
                         <img className='' src={Worker.img} alt="work" />
                         <h1 className='text-center font-bold pt-4 pb-6 text-2xl text-sky-600'>{Worker.name}</h1>
                         <p className='text-lg'>{Worker.p}</p>
+                        
                     </Card>
                 ))}
             </div>
