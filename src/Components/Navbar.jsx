@@ -33,14 +33,12 @@ const Navbar = () => {
             
                   </div>
                   </div>
-                   <div className='pl-[570px]'>
+                </div>
+                <div className='pl-[700px]'>
                    {isDropOpen && (
                      <Dropdown/>
                   )}
                    </div>
-                 
-                  
-                </div>
             </div>
             <Outlet />
             <Footer />
