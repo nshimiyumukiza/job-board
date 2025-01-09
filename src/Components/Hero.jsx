@@ -5,33 +5,33 @@ import { GoDotFill } from "react-icons/go";import { Link } from 'react-router';
 
 const datas =[{
     
-    img:"src/images/worker.png",
+    img:"/images/worker.png",
     head:"Job Seekers",
     todos:["Post or edit your resume / professional profile","veiw job avarable","see what job you are eligible for"],
 },
 {
-    img:"src/images/boss.png",
+    img:"/images/boss.png",
     head:"Employers",
     todos:["post job","check your job applicants","bring your actions"]
 }]
 const workers=[
     {
-        img:"src/images/girl.png",
+        img:"/images/girl.png",
         name:"Bwiza Nadine",
         p:"I am very grateful to the owners of this site because they helped me find a good and well-paying job."
     },
     {
-        img:"src/images/boy.png ",
+        img:"/images/boy.png ",
         name:"Eric Bravan",
         p:"After finishing high school, I lost my job and became unemployed. My friend came to me on a website called job board and I am looking for a job now."
     },
     {
-        img:"src/images/man.png",
+        img:"/images/man.png",
         name:"kalisa kamali",
         p:"I am committed to work in the Gatsibo area,I have hired staff here I see them very easily and they do their job well It is a pleasure to work with you"
     },
     {
-        img:"src/images/woman.png",
+        img:"/images/woman.png",
         name:"Gihozo Alice",
         p:"I am thankful that I found a job through this site I now have a bright future because of the job I have"
     }
@@ -54,8 +54,8 @@ export const Hero = () => {
 
             <div>
                 <Carousel autoplay={true} autoplaySpeed={3000} dots={false}>
-                    <img src="src/images/bluiding.png" alt="" />
-                    <img src="src/images/coder.png" alt="" />
+                    <img src="/images/bluiding.png" alt="" />
+                    <img src="/images/coder.png" alt="" />
                 <img src="src/images/ask job.png" alt="" />
                 </Carousel>
             </div>
