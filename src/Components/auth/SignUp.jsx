@@ -4,7 +4,7 @@ import { EyeInvisibleOutlined, EyeTwoTone,} from '@ant-design/icons';
 export function SignUp({onLogin}){
   return (
     <>
-      <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center h-screen bg-sky-700 '>
         <Card className='w-[500px]'>
             <div>
                 <h1 className='text-3xl text-center font-bold'>Job Board Regist</h1>
@@ -44,7 +44,7 @@ export function SignUp({onLogin}){
         </Card>
     </div>
     <div className='py-4'>
-            <h1 className='text-center text-lg text-white'>{new Date().getFullYear()}  Job Board All rights reserved.</h1>
+            <h1 className='text-center text-lg text-white'>&copy;{new Date().getFullYear()}  Job Board All rights reserved.</h1>
         </div>
     </>
    
