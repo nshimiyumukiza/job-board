@@ -29,7 +29,7 @@ export function Login({onSignup}){
         </Card>
     </div>
     <div className='py-4'>
-            <h1 className='text-center text-lg text-white'>{new Date().getFullYear()}  Job Board All rights reserved.</h1>
+            <h1 className='text-center text-lg text-white'>&copy;{new Date().getFullYear()}  Job Board All rights reserved.</h1>
         </div>
     </>
    

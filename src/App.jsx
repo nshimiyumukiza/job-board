@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import ContactPage from './Pages/ContactPage';
 import About from './Components/About';
 import Authantication from './Components/auth';
+import { SignUp } from './Components/auth/SignUp';
 const App = () => {
   return (
 <>
@@ -14,8 +15,10 @@ const App = () => {
 <Route path='/'element ={<HomePage />} />
 <Route path='contact'element ={<ContactPage />}/>
 <Route path='about'element ={<About />}/>
+<Route path='sign'element={<SignUp />}/>
   </Route>
   <Route path='login'element={<Authantication />}/>
+  
 </Routes>
 </BrowserRouter>
 </>

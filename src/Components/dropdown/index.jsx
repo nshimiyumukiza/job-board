@@ -7,8 +7,8 @@ export const Dropdown = () =>{
         <div className="">
             {Jobs.map(job=>(
             <div className="flex justify-between items-center">
-                <h5>{job} </h5>
-                <Link href="">View job</Link>
+                <h5 className=" hover:underline">{job} </h5>
+                <Link to="">View job</Link>
             </div>
             ))}
            
