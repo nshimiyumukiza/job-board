@@ -24,7 +24,7 @@ const Navbar = () => {
                   </div>
                   <div className='flex justify-end items-center  w-96 gap-2 border-2 border-white rounded-md'>
                     <p className='border-r-2 border-white px-2' onClick={HndleDrop} href="">Job categories  <DownOutlined className='text-lg font-bold'/></p>
-                    <Input className=' bg-black  w-[240px] outline-none border-none  rounded-md text-black text-center' placeholder="Find job" suffix={<IoSearch/>}/>
+                    <Input className='   w-[240px] outline-none border-none  rounded-md text-black text-center' placeholder="Find job" suffix={<IoSearch/>}/>
                   </div>
                   <div className='space-x-4'>
                     <Link className='hover:underline' to="/about">About</Link>

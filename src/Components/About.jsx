@@ -3,7 +3,7 @@ import { Card } from "antd";
 const About = () => {
   return (
     
-    <div className='mt-32 w-11/12 mx-auto'>
+    <div className='mt-32 w-11/12 mx-auto '>
         <div>
         <h1 className="text-3xl font-bold pb-2"> Job Board Profile</h1>
         <Card className="w-1/2 bg-gray-100">
