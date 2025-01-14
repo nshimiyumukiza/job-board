@@ -3,12 +3,13 @@ import { Card } from "antd";
 const About = () => {
   return (
     
-    <div className='mt-32 w-11/12 mx-auto '>
+    <div className=' w-11/12 mx-auto grid grid-cols-2'>
+        <div className="w-[1500px] mt-32">
         <div>
         <h1 className="text-3xl font-bold pb-2"> Job Board Profile</h1>
         <Card className="w-1/2 bg-gray-100">
             <p className="text-lg"> Created in January 2025, by student developer who was study in Nyabiheke coding school 
-                these are <span className="text-sky-600 underline font-bold">ERNESTE,GISELE </span>and <span className="text-sky-600 underline font-bold">EMMAUNUEL</span>. Job Board 
+                these are <span className="text-sky-600 underline font-bold">ERNESTE,GISELE </span>and <span className="text-sky-600 underline font-bold">EMMANUEL</span>. Job Board 
                 is a private held company providing services in the area of online recruitment and advertisement.
             </p>
         </Card>
@@ -31,6 +32,15 @@ const About = () => {
             </Card>
 
         </div>
+        </div>
+<div className="">
+<div className="bg-[url('/images/job.png')] h-[795px] bg-cover text-sky-600 w-full">
+<div className="h-full flex justify-center items-center">
+<h1 className="text-3xl font-bold uppercase w-[500px]">work with us for better tommorrow</h1>
+</div>
+
+</div>
+</div>
         
     </div>
 

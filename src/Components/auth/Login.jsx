@@ -20,11 +20,11 @@ export function Login({onSignup}){
             <Input.Password placeholder="Enter Password" />
             </div>
             <div className='flex justify-between items-center py-2'>
-<button className=' border rounded-md px-3 bg-sky-800 text-white'>Log in</button>
+<button className=' border rounded-md px-3 bg-sky-800 text-white font-bold text-lg'>Log in</button>
 <a className='text-sky-700 underline ' href="">Forget Password</a>
             </div>
             <div className='py-2'>
-              <p>You don't have account  <span onClick={onSignup} className='text-sky-600'>Sign up</span></p>
+              <p>You don't have account  <span onClick={onSignup} className='text-sky-600 text-xl font-bold'>Sign up</span></p>
             </div>
         </Card>
     </div>
