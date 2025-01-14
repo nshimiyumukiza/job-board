@@ -36,9 +36,9 @@ export function SignUp({onLogin}){
               </label>
             </div>
             <div>
-           <button className=' border rounded-md px-3 bg-sky-800 text-white'>Sign up</button>
+           <button className=' border rounded-md px-3 bg-sky-800 text-white text-lg'>Sign up</button>
             <div className='py-2'>
-               <p>You have allready account {""} <span onClick={onLogin} className='text-sky-600'>Login</span></p>
+               <p>You have allready account {""} <span onClick={onLogin} className='text-sky-600 text-xl font-bold'>Login</span></p>
             </div>
             </div>
         </Card>
