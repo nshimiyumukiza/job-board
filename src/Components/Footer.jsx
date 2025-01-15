@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const Footer = () => {
   return (
     <>
-    <div className='flex justify-around bg-black text-white mt-8 pt-10 pb-8 space-y-7'>
+    <div className='flex flex-col-1 sm:justify-around bg-black text-white mt-8 pt-10 pb-8 space-y-7'>
         <div className='space-y-4'>
             <h1 className='text-sky-800 font-bold'>About Job Board</h1>
             <div className='grid space-y-4'>
