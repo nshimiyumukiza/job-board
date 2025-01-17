@@ -55,7 +55,7 @@ export const Hero = () => {
                  </div>
             </div>
 
-            <div>
+            <div >
                 <Carousel autoplay={true} autoplaySpeed={6000} dots={false} speed={1500}>
                     <img className='w-full h-64 md:h-full object-cover' src="/images/bluiding.png" alt="" />
                     <img className='w-full h-64 md:h-full object-cover' src="/images/coder.png" alt="" />
@@ -93,7 +93,7 @@ export const Hero = () => {
             <div className='pt-4 sm:pt-6 md:pt-8 grid grid-cols-2 md:grid-cols-4 border-2 rounded-md mt-16 px-16 w-11/12 mx-auto space-x-5 bg-gray-100 pb-16'>
                 {workers.map(Worker =>(
                     <Card className="sm:pt-2 md:pt-4 px-4 md:px-8 py-4 md:hover:scale-110
-                     hover:transition-transform hover:duration-100 "
+                     hover:transition-transform hover:duration-100 hidden sm:flex justify-start"
 > 
                         <img className='' src={Worker.img} alt="work" />
                         <h1 className='text-center font-bold pt-4 pb-6 text-xl sm:text-2xl text-sky-600'>{Worker.name}</h1>

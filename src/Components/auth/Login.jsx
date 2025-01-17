@@ -1,13 +1,14 @@
 import { Card } from 'antd';
 import { Input } from "antd";
 import { EyeInvisibleOutlined, EyeTwoTone,} from '@ant-design/icons';
+import { MdLogin } from "react-icons/md";
 
 
 export function Login({onSignup}){
   return (
     <>
      <div className='flex justify-center items-center'>
-        <Card className='w-[500px]'>
+        <Card className='md:w-[500px] sm:w-[400px]'>
             <div>
                 <h1 className='text-3xl text-center font-bold'>Job Board Sign In</h1>
             </div>
@@ -20,7 +21,12 @@ export function Login({onSignup}){
             <Input.Password placeholder="Enter Password" />
             </div>
             <div className='flex justify-between items-center py-2'>
-<button className=' border rounded-md px-3 bg-sky-800 text-white font-bold text-lg'>Log in</button>
+             <div className='flex justify-start items-center border rounded-md px-3
+              bg-sky-800 text-white font-bold text-lg gap-3'>
+             <MdLogin />
+             <button className=' '>Log in</button>
+             </div>
+
 <a className='text-sky-700 underline ' href="">Forget Password</a>
             </div>
             <div className='py-2'>

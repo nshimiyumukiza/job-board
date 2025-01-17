@@ -11,14 +11,14 @@ const addres=[
 const Contact = () => {
   return (
     <>
-    <div className='bg-sky-400 h-40 px-16 flex justify-start items-center mt-28'> 
-        <h1 className='font-bold text-4xl'>Contact Us</h1>
+    <div className='bg-sky-400 sm:h-32 h-20 md:h-40 sm:px-12 px-8 md:px-16 flex justify-start items-center mt-28'> 
+        <h1 className='font-bold sm:text-3xl text-2xl md:text-4xl'>Contact Us</h1>
         </div>
-    <div className='flex mx-auto w-11/12 justify-around'>
+    <div className='flex mx-auto w-11/12 md:justify-around'>
         
-        <div className='py-12'>
-        <div className='pb-5'>
-            <h1 className='text-3xl font-bold'>Contact to me</h1>
+        <div className='md:py-12 sm:py-8 py-6'>
+        <div className='sm:pb-5 pb-3 md:flex-col justify-start hidden'>
+            <h1 className='md:text-3xl font-bold sm:text-2xl text-xl'>Contact to me</h1>
             <div>
             <div className='flex gap-10 justify-start items-center pt-2'>
             <FaFacebookF className='text-sky-400 text-2xl'/>
@@ -29,7 +29,7 @@ const Contact = () => {
             </div>
         </div>
         <div className='pb-5'>
-            <h1 className='text-3xl font-bold '>Contact Datails</h1>
+            <h1 className='md:text-3xl font-bold sm:text-2xl text-xl '>Contact Datails</h1>
             <div className='flex space-x-5'>
                 <p className='text-lg'>phone</p>
                 <p className='text-lg'>0794650639</p>
@@ -40,13 +40,13 @@ const Contact = () => {
             </div>
         </div>
         <div>
-            <h1 className='text-3xl font-bold '>Address</h1>
+            <h1 className='md:text-3xl font-bold text:2xl text-xl'>Address</h1>
    <div>
     {addres.map(addre =>(
         <div className=''>
-            <p className='text-lg'>COUNTRY :{addre.country}</p>
-            <p className='text-lg'>DISTRICT :{addre.district}</p>
-            <p className='text-xg'>LOCATION :{addre.location}</p>
+            <p className='md:text-lg text-base'>COUNTRY :{addre.country}</p>
+            <p className='md:text-lg text-base'>DISTRICT :{addre.district}</p>
+            <p className='md:text-xg text-base'>LOCATION :{addre.location}</p>
         </div>
     ))}
    </div>

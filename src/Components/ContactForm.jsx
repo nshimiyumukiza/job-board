@@ -8,7 +8,7 @@ const { TextArea } = Input;
 export function ContactForm () {
   const [value, setValue] = useState('');
   return (
-    <div className=' w-[900px]'>
+    <div className=' md:w-[900px] sm:w-[700px]'>
     <div className='grid grid-cols-2 gap-3'>
       <div>
    <TextArea placeholder="First name" autoSize />
