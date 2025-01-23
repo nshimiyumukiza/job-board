@@ -1,6 +1,7 @@
 import { Card } from 'antd';
 import { Input } from "antd";
 import { EyeInvisibleOutlined, EyeTwoTone,} from '@ant-design/icons';
+
 export function SignUp({onLogin}){
   return (
     <>
@@ -37,7 +38,8 @@ export function SignUp({onLogin}){
             </div>
             <div>
            <button className=' border rounded-md px-3 bg-sky-800 text-white text-lg'>Sign up</button>
-            <div className='py-2'>
+            <div className='py-2 flex gap-3'>
+           
                <p>You have allready account {""} <span onClick={onLogin} className='text-sky-600 text-xl font-bold'>Login</span></p>
             </div>
             </div>
